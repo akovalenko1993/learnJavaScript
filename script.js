@@ -247,3 +247,16 @@
 //if (age => 19 && age <= 90) ``````````````````ВОТ ПРАВИЛЬНЫЙ ПРИМЕР ПРОВЕРКА 19<=age<=90;
 //console.log('VSE OK')`````````````````````````
 
+//let firstName = null;
+//let secondName = null;
+//let thirdName;
+//let fourthName = 'djfjg';
+//alert(firstName || secondName || thirdName || fourthName)
+//alert(firstName ?? secondName ?? thirdName ?? fourthName)
+
+let i = 3
+while (i) {
+    alert(i);
+    i--
+}
+

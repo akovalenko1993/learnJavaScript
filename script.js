@@ -160,23 +160,90 @@
 
 
 /////////////////////////РАЗБЕРЕМ СТРОКУ НА СЛОВА СОЗДАДИМ МАССИВ ИЗ ЭТИХ СЛОВ/////////////////////////
-let thisString;
-thisString = prompt('введи строку', '');
-let a=0;
-let parsedStringArray = [''];
-let j = 0;
-let emptyesPosition = [];
-for (let i = 0; i < thisString.length; i++) {
-    if (thisString[i] != ' ') {
-                parsedStringArray[j] = parsedStringArray[j] + thisString[i]
-    } else {
-        ++j;
-        parsedStringArray[j]=''
-    }
+//let thisString;
+//thisString = prompt('введи строку', '');
+//let a=0;
+//let parsedStringArray = [''];
+//let j = 0;
+//let emptyesPosition = [];
+//for (let i = 0; i < thisString.length; i++) {
+//    if (thisString[i] != ' ') {
+//                parsedStringArray[j] = parsedStringArray[j] + thisString[i]
+//    } else {
+//        ++j;
+//        parsedStringArray[j]=''
+//    }
 
-}
+//}
 //for (a = 0; a < parsedStringArray.length; ++a) {}
 // fsdf
 //if (parsedStringArray[a] == '') {
 //    parsedStringArray[a-1]=parsedStringArray[a];
 //console.log(parsedStringArray)
+
+
+///////////////////////////////////////////////////    НУ  ЭТО  ВООБЩЕ ЖЕСТЬ ПРИКОЛ     ```````````````````````````````````
+//let x=1;
+//(x>0) && alert ('Greater than Hero');
+//undefined
+//typeof null
+//'object'
+//Boolean(null)
+//false
+//let age=prompt('Input your age!');
+//if (age>=19)&&(age<=90);
+//console.log('VSE OK');
+//VM693:2 Uncaught SyntaxError: Unexpected token '&&'
+//let age=prompt('Input your age!');
+//if (age>=19)&&(age<=90);
+//console.log('VSE OK');
+//VM696:2 Uncaught SyntaxError: Unexpected token '&&'
+//let age=prompt('Input your age!');
+//let ageInDiapasonTruth=(age>=19)&&(age<=90)
+//if ageInDiapasonTruth
+//console.log('VSE OK');
+//VM764:3 Uncaught SyntaxError: Unexpected identifier
+//let age=prompt('Input your age!');
+//let ageInDiapasonTruth=(age>=19)&&(age<=90)
+//If ageInDiapasonTruth
+//console.log('VSE OK');
+//VM773:3 Uncaught SyntaxError: Unexpected identifier
+//let age=prompt('Input your age!');
+//let ageInDiapasonTruth=(age>=19)&&(age<=90)
+//if ageInDiapasonTruth
+//console.log('VSE OK');
+//VM782:3 Uncaught SyntaxError: Unexpected identifier
+//let age=prompt('Input your age!','');
+//let 
+//if ageInDiapasonTruth
+//console.log('VSE OK');
+//VM818:3 Uncaught SyntaxError: Unexpected identifier
+//let age=5;
+//let ageBigger19=(age>19);
+//console.log(ageBigger19);
+
+
+//let age=5;
+//let ageBigger19=(age>19);
+//let ageSmaller90=(age<90)
+//let ageInDiapasonTruth=ageBigger19 && ageSmaller90
+//console.log(ageInDiapasonTruth)
+
+
+//let age=5;
+//let ageBigger19=(age>19);
+//let ageSmaller90=(age<90)
+//let ageInDiapasonTruth=ageBigger19 && ageSmaller90
+//console.log(ageInDiapasonTruth)
+
+
+//let age=50;
+//let ageBigger19=(age>19);
+//let ageSmaller90=(age<90)
+//let ageInDiapasonTruth=ageBigger19 && ageSmaller90
+//console.log(ageInDiapasonTruth)
+
+//let age=20;```````````````````````````````````
+//if (age => 19 && age <= 90) ``````````````````ВОТ ПРАВИЛЬНЫЙ ПРИМЕР ПРОВЕРКА 19<=age<=90;
+//console.log('VSE OK')`````````````````````````
+

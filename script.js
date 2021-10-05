@@ -254,9 +254,58 @@
 //alert(firstName || secondName || thirdName || fourthName)
 //alert(firstName ?? secondName ?? thirdName ?? fourthName)
 
-let i = 3
-while (i) {
-    alert(i);
-    i--
-}
+
+//let i = 3
+//do {
+//    alert(i);
+//    --i
+//}
+//while (i);
+
+//for (i = 3; i > 0; i--)
+//    alert(i);
+//
+//let sum = 0;
+
+//while (true) {
+
+//  let value = +prompt("Введите число", '');
+
+ // if (!value) break; // (*)
+
+ // sum += value;
+//alert( 'Сумма: ' + sum );
+//}
+//alert( 'Сумма: ' + sum );
+
+//for (i = 1; i <= 10; i++) {
+//    if (i % 2 == 0)
+ //       alert(i)
+//}
+
+
+//let i = 0;
+//while (i < 3){
+//    alert(`number ${i}!`);
+//    i++
+//}
+
+//let numberFromUser;
+//outer: while (true) {
+//    numberFromUser = +prompt('input your number please');
+//    if (numberFromUser > 100 || !numberFromUser) break outer;
+//    }
+//alert(numberFromUser);
+
+//let name = "Oleksii";
+//switch (name) {
+//    case 'Vitaliy':
+//        alert('Vitaliy');
+//        break
+//    case 'Oleksii':
+//        
+//          alert('Oleksii');
+//        break
+//}
+
 

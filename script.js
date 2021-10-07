@@ -309,3 +309,127 @@
 //}
 
 
+//function showMessage(from, text='text dont added') {
+
+ // from = '*' + from + '*'; // немного украсим "from"
+
+ // return (from + ': ' + text) ;
+//}
+
+//let from = "Аня";
+//showMessage(from); // *Аня*: Привет
+
+// значение "from" осталось прежним, функция изменила значение локальной переменной
+//alert(from); // Аня
+//let x = showMessage(from,"ffff");
+//alert(x);
+
+//function checkAge(age) {
+//    if (age > 18)
+//        return true;
+//    else
+//        return false;
+//}
+//let age = prompt("Input your age", '');
+
+//if (checkAge(age)) 
+//    alert('Acces confirm');
+
+//else
+//    alert('А родители разрешили');
+
+//let n = 5;/
+//function showPrimes(n) {
+
+  //for (let i = 2; i < n; i++) {
+    //if (!isPrime(i)) continue;
+
+    //alert(i);  // простое
+  //}
+//}
+
+//function isPrime(n) {
+ // for (let i = 2; i < n; i++) {
+  //  if ( n % i == 0) return false;
+ // }
+ // return true;
+//}
+
+//showPrimes(n);
+
+//let a = 5
+//let b = 4
+//function min(a, b) {
+// return (+a < +b) ? console.log(a) : console.log(b)
+//}
+//min(a, b);
+//min(2, 1);
+
+//function pow(x, n) {
+// / return console.log(x **= n)
+//}
+//pow (4,3)
+
+//let sayHi = function () {
+//  alert('ПРивет');
+//};
+//let func = sayHi;
+//sayHi();
+//func();
+//                                                                FUNCTION EXPRESSION
+//function ask(question, yes, no) {
+  //if (confirm(question)) yes()
+  //else no();
+//}
+//function showOK() {
+//  alert("You are accept")
+//}
+//function showCancel() {
+//  alert("you are decline");
+//}
+//ask("Вы согласны?", showOK, showCancel)
+
+//ask('Вы согласны?',
+//    function () { alert('you are accept') },
+// function () { alert('you are decline')} 
+//)
+
+ 
+
+//let sum = (a, b) => a + b;
+//alert(sum(4, 5));
+
+
+//let sayHi = () => alert('Hello');
+//sayHi();
+
+
+//let age = prompt('Input your Age', 18);
+//let checkAge = (age < 18) ?
+//  () => alert('Your age is less than 18') :
+//  () => alert('Your age is more than 18');
+//checkAge();
+
+
+//let sum = (a, b) => {
+//  result = a + b;
+//  return result;
+///};
+//alert(sum(1, 2));
+
+
+//function ask(question, yes, no) {
+//  if (confirm(question)) yes()
+ // else no();
+//}
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Вы согласны?",
+  function () { alert("Вы согласились.") },
+  function () { alert("Вы отменили выполнение.") }
+);
